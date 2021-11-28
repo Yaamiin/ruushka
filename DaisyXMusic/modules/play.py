@@ -615,8 +615,8 @@ async def play(_, message: Message):
                     InlineKeyboardButton("Menu ⏯ ", callback_data="menu"),
                 ],
                 [
-                    InlineKeyboardButton(" 🥀𝗔𝗧𝗧𝗔𝗖𝗞 ", url=f"https://t.me/@AttackTor"),
-                    InlineKeyboardButton("👥 𝗧𝗔𝗔𝗕𝗢 ", url=f"https://t.me/somalibots"),
+                    InlineKeyboardButton(" 💔Sᴀᴀʏɢᴀ❤️ ", url=f"https://t.me/@Tabliiq_culumo"),
+                    InlineKeyboardButton("👥 Tᴀᴀʙᴏ ", url=f"https://t.me/somalibots"),
                 ],
                 [InlineKeyboardButton(text="❌ Close", callback_data="cls")],
             ]
@@ -726,8 +726,8 @@ async def play(_, message: Message):
                         InlineKeyboardButton("Menu ⏯ ", callback_data="menu"),
                     ],
                     [
-                        InlineKeyboardButton("🥀𝗔𝗧𝗧𝗔𝗖𝗞⚡", url=f"https://t.me/AttackTor"),
-                        InlineKeyboardButton("👥 𝗧𝗔𝗔𝗕𝗢 ", url=f"https://t.me/somalibots"),
+                        InlineKeyboardButton("💔Sᴀᴀʏɢᴀ❤️", url=f"https://t.me/Tabliiq_culumo"),
+                        InlineKeyboardButton("🌈Tᴀᴀʙᴏ ", url=f"https://t.me/somalibots"),
                     ],
                     [InlineKeyboardButton(text="❌ Close", callback_data="cls")],
                 ]
@@ -882,8 +882,8 @@ async def ytplay(_, message: Message):
                 InlineKeyboardButton("Menu ⏯ ", callback_data="menu"),
             ],
             [
-                InlineKeyboardButton(" 🥀 𝗔𝗧𝗧𝗔𝗖𝗞 ⚡", url=f"https://t.me/AttackTor"),
-                InlineKeyboardButton("👥 𝗧𝗔𝗔𝗕𝗢 ", url=f"https://t.me/somalibots"),
+                InlineKeyboardButton(" 💔Sᴀᴀʏɢᴀ❤️", url=f"https://t.me/Tabliiq_culumo"),
+                InlineKeyboardButton("🌈Tᴀᴀʙᴏ ", url=f"https://t.me/somalibots"),
             ],
             [InlineKeyboardButton(text="❌ Close", callback_data="cls")],
         ]
@@ -1128,7 +1128,7 @@ async def lol_cb(b, cb):
         open(thumb_name, "wb").write(thumb.content)
     except Exception as e:
         print(e)
-        return
+      return
     dlurl = url
     dlurl = dlurl.replace("youtube", "youtubepp")
     keyboard = InlineKeyboardMarkup(
@@ -1138,8 +1138,8 @@ async def lol_cb(b, cb):
                 InlineKeyboardButton("Menu ⏯ ", callback_data="menu"),
             ],
             [
-                InlineKeyboardButton("𝗔𝗧𝗧𝗔𝗖𝗞 🥀", url=f"https://t.me/AttackTor"),
-                InlineKeyboardButton("👥 𝗧𝗔𝗔𝗕𝗢 ", url=f"https://t.me/somalibots"),
+                InlineKeyboardButton("𝗔𝗧𝗧𝗔𝗖𝗞", url=f"https://t.me/Tabliiq_culumo"),
+                InlineKeyboardButton("🌈Tᴀᴀʙᴏ ", url=f"https://t.me/somalibots"),
             ],
             [InlineKeyboardButton(text="❌ Close", callback_data="cls")],
         ]
